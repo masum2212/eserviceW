@@ -1,0 +1,26 @@
+.row{
+    --bs-gutter-x: 0px !important;
+}
+.row>*{
+    padding-right: calc(var(--bs-gutter-x) * 0) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0) !important;
+    /* margin-top: var(--bs-gutter-y); */
+}
+.container{
+    background-image:url('https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480');
+}
+
+
+.css-1159b1f-MuiPaper-root-MuiCard-root{
+    box-shadow: 0px 7px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+}
+.css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root{
+    background-color: white !important;
+    text-align: center !important;
+}
+.cardHover:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px 0px;
+    transition: 0.5s;
+    animation: ease-in-out;
+}
